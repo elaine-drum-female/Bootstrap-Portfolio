@@ -11,4 +11,5 @@
 .navbar-brand {
     font-family:'Georgia', Times, Times New Roman, serif;
     text-transform: capitalize;
+    font-size:2em;
 }
