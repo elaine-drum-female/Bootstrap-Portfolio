@@ -19,11 +19,19 @@ body {
     color:#4aaaa5;
 }
 
-.container {
+.container,
+.main-content {
     background:#fff;
-    border:2px solid #ccc;
     margin-top:20px;
     padding:20px;
+}
+
+.container-fluid {
+    padding:0;
+}
+
+.main-content {
+    border:2px solid #ccc;
 }
 
 h2 {
@@ -34,6 +42,7 @@ h2 {
 
 
 @media (max-width:576px) {
-    .container {border:none;}
+    .container,
+    .main-content {border:none;}
     p {margin:20px 0 10px 0;}
 }
