@@ -6,7 +6,7 @@ body {
     background-color: #fff!important;
 }
 
-.navbar-light .navbar-brand, 
+ 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav {
     color:#4aaaa5;
@@ -16,7 +16,19 @@ body {
     font-family:'Georgia', Times, Times New Roman, serif;
     text-transform: capitalize;
     font-size:2em;
-    color:#4aaaa5;
+    padding:10px;
+    background:#4aaaa5;
+}
+
+.navbar-light .navbar-brand {
+    color:#fff;
+}
+
+a.nav-link::after {
+    content: "|";
+    display: inline-block;
+    clear: both;
+    padding: 5px;
 }
 
 .container,
@@ -54,8 +66,14 @@ h2 {
 }
 
 @media (min-width: 992px) {
-.navbar-expand-lg .navbar-collapse {
+    .navbar-expand-lg .navbar-collapse {
     position: absolute;
     right: 15px;
     }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding:0;
+    }
+
+
 }
