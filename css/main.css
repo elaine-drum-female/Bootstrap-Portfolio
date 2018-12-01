@@ -1,15 +1,28 @@
 .bg-light {
-    background-color: #4aaaa5!important;
+    background-color: #fff!important;
 }
 
 .navbar-light .navbar-brand, 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link{
-    color:#fff;
+    color:#4aaaa5;
 }
 
 .navbar-brand {
     font-family:'Georgia', Times, Times New Roman, serif;
     text-transform: capitalize;
     font-size:2em;
+    color:#4aaaa5;
+}
+
+
+body {
+    background-image: url('../images/houndstooth-pattern.png');
+}
+
+.container {
+    background:#fff;
+    border:2px solid #ccc;
+    margin-top:20px;
+    padding:20px;
 }
