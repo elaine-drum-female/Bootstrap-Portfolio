@@ -53,3 +53,9 @@ h2 {
     h2 {text-align: center;}
 }
 
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    position: absolute;
+    right: 15px;
+    }
+}
