@@ -48,6 +48,7 @@ a.nav-link::after {
 .main-content {
     border:2px solid #ccc;
     margin:0 auto;
+    margin-top:20px;
 }
 
 h2 {
