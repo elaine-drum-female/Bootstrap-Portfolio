@@ -21,6 +21,7 @@ p {
     font-size:2em;
     padding:10px;
     background:#4aaaa5;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-brand {
