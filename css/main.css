@@ -61,6 +61,15 @@ hr {
     margin-bottom: 20px;
 }
 
+.bottom-footer {
+    background: red;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+
 
 @media (max-width:576px) {
     .container,
