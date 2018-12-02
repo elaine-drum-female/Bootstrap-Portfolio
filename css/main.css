@@ -38,7 +38,7 @@ a.nav-link::after {
 .container,
 .main-content {
     background:#fff;
-    margin-top:20px;
+    margin:20px 0 0 15px;
     padding:20px;
 }
 
