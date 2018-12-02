@@ -62,9 +62,20 @@ hr {
 }
 
 .bottom-footer {
-    background: red; 
+    background: #666666; 
     width: 100%;
     margin: 0;
+    border-top:8px solid #4aaaa5;
+}
+
+.bottom-footer p {
+    font-size:12px;
+}
+
+.text-center {
+    margin:0;
+    padding:10px;
+    color:#fff;
 }
 
 
