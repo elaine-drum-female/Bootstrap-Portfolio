@@ -80,6 +80,10 @@ hr {
     right: 15px;
     }
 
+    .navbar-expand-lg {
+    border-bottom:2px solid #ccc;
+    }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding:0;
     }
