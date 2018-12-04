@@ -12,6 +12,7 @@ p {
 
 .container-fluid {
     background:#fff;
+    border-bottom:2px solid #ccc;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
@@ -101,9 +102,7 @@ hr {
     right: 15px;
     }
 
-    .navbar-expand-lg {
-    border-bottom:2px solid #ccc;
-    }
+
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding:0;
