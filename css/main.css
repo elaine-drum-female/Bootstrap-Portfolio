@@ -8,8 +8,12 @@ body {
 
 .row {
     margin-right:0;
+    padding-left:15px;
 }
 
+img {
+    width:100%;
+}
 
 .container-fluid {
     background:#fff;
@@ -58,7 +62,7 @@ a.nav-link::after {
     margin:20px auto 40px auto;
 }
 
-.main-content h4 {
+.main-content h5 {
     text-align:center;
     position: absolute;
     padding: 10px;
