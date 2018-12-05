@@ -43,7 +43,7 @@ a.nav-link::after {
 .container,
 .main-content {
     background:#fff;
-    padding:20px;
+    padding:20px 0;
 }
 
 .container-fluid {
