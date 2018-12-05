@@ -58,6 +58,10 @@ a.nav-link::after {
     margin:20px auto 40px auto;
 }
 
+.main-content h4 {
+    text-align:center;
+}
+
 h2 {
     text-transform: capitalize;
     color:#4aaaa5;
