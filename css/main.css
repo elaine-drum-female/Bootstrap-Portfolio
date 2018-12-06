@@ -1,13 +1,24 @@
 body {
-    background-image: url('../images/houndstooth-pattern.png');
+    /* background-image: url('../images/houndstooth-pattern.png'); */
+    background:#fff;
+}
+
+body,
+html {
+    width:100%;
+    height:100%;
 }
 
 .bg-light {
     background-color: #fff!important;
 }
 
-.row {
+/* .row {
     margin-right:0;
+} */
+
+.nowrap {
+    border-bottom:2px solid #ccc;
 }
 
 img {
@@ -63,6 +74,7 @@ a.nav-link.last {
 .main-content {
     background:#fff;
     padding:20px 0;
+
 }
 
 .container-fluid {
@@ -111,7 +123,7 @@ hr {
 .bottom-footer {
     background: #666666; 
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding:30px 0;
     border-top:8px solid #4aaaa5;
 }
@@ -159,5 +171,12 @@ hr {
 @media (max-width:768px) {
     .navbar-collapse.show a.nav-link {
         border:0;
+    }
+}
+
+@media (min-width:1200px) {
+    .nowrap {
+        flex-wrap: nowrap!important;
+        background:#fff;
     }
 }
