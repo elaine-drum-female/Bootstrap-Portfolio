@@ -105,6 +105,10 @@ p.whitefont {
     color:#fff;
 }
 
+.border-around {
+    border:1px solid #ccc;
+}
+
 /* .main-content {
     border:2px solid #ccc;
     padding:20px 10px;
