@@ -148,7 +148,10 @@ hr {
     margin-bottom: 20px;
 }
 
-
+.btn-green {
+    background:#4aaaa5;
+    border-color:#4aaaa5;
+}
 
 .text-center {
     margin:0;
