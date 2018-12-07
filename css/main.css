@@ -148,7 +148,8 @@ hr {
     margin-bottom: 20px;
 }
 
-.btn-green {
+.btn-green,
+.btn-green:hover {
     background:#4aaaa5;
     border-color:#4aaaa5;
 }
